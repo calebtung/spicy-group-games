@@ -84,6 +84,18 @@ pytest
 
 Pytest configuration is defined in pytest.ini.
 
+## Run Integration Tests (Dash UI)
+
+Integration tests use a real browser via `dash.testing` and are marked with `integration`.
+
+```bash
+pytest -m integration
+```
+
+Notes:
+- Default `pytest` excludes integration tests to keep normal runs fast and stable.
+- Use integration tests when you want browser-level behavior checks (clicks, redirects, live UI updates).
+
 ## GitHub CI
 
 Unit tests run automatically on push and pull requests via:
