@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from threading import Lock
 from typing import Optional
 
-from src.models import Lobby
+from spicy_group_games.models import Lobby
 
 _LOBBY_CODE_LENGTH = 4
 _MAX_CODE_ATTEMPTS = 10_000

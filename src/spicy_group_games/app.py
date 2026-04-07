@@ -8,8 +8,8 @@ import dash_bootstrap_components as dbc
 from dash import Dash
 from flask import Flask
 
-from src.callbacks import register_callbacks
-from src.layouts import create_root_layout
+from spicy_group_games.callbacks import register_callbacks
+from spicy_group_games.layouts import create_root_layout
 
 
 def create_dash_app() -> Dash:

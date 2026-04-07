@@ -1,6 +1,6 @@
 """Development entrypoint for running the Dash server."""
 
-from src.app import create_dash_app
+from spicy_group_games.app import create_dash_app
 
 
 def main() -> None:

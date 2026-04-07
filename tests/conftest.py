@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from src import lobby_store
+from spicy_group_games import lobby_store
 
 
 @pytest.fixture(autouse=True)

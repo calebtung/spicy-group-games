@@ -2,9 +2,7 @@
 
 from __future__ import annotations
 
-from collections import OrderedDict
-
-from src import lobby_store
+from spicy_group_games import lobby_store
 
 
 def test_create_lobby_adds_host_player() -> None:

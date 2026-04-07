@@ -9,8 +9,8 @@ import dash_bootstrap_components as dbc
 from dash import Dash, Input, Output, State, callback_context, html, no_update
 from flask import session
 
-from src.layouts import create_home_layout, create_lobby_layout
-from src.lobby_store import create_lobby, delete_lobby, join_lobby, leave_lobby, snapshot_lobby
+from spicy_group_games.layouts import create_home_layout, create_lobby_layout
+from spicy_group_games.lobby_store import create_lobby, delete_lobby, join_lobby, leave_lobby, snapshot_lobby
 
 _SESSION_PLAYER_ID = "player_id"
 _SESSION_USERNAME = "username"

@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from src import callbacks
+from spicy_group_games import callbacks
 
 
 def test_normalize_code_keeps_only_uppercase_letters() -> None:

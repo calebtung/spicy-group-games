@@ -1,0 +1,12 @@
+{
+  "include": [
+    "src",
+    "tests",
+    "run_server.py"
+  ],
+  "extraPaths": [
+    "src"
+  ],
+  "venvPath": ".",
+  "venv": "venv"
+}
